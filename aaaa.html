@@ -1,0 +1,45 @@
+<html>
+<head>
+<script language="JavaScript">
+var i = 0; var path = new Array();
+
+
+path[0] = "1.png";
+path[1] = "2.png";
+path[2] = "3.png";
+
+function swapImage()
+{
+document.slide.src = path[i];
+if(i < path.length - 1) i++;
+else i = 0;
+setTimeout("swapImage()",3000);
+}
+window.onload=swapImage;
+</script>
+<style>
+.head
+{
+  height:30px;
+}
+.top
+{
+  height:30px;
+  background-color: powderblue;
+}
+span
+{
+  padding-right: 10px;
+}
+</style>
+</head>
+<body>
+  <div class="head">
+  <CENTER> <H2> WELCOME TO --</H2></CENTER>
+  </div>
+  <div class="top">
+<span>Rest </span> <span> Visit</span><span> Explore</span><span> Think</span> <span>Review</span>
+  </div>
+<img  height="50%" name="slide" src="image_1.gif" width="100%" />
+</body>
+</html>
