@@ -1,0 +1,92 @@
+<html>
+<head>
+<link rel="icon" type="image/gif" href="1.jpg" sizes="16x16"/>
+<title>Bihar</title>
+
+<script language="JavaScript">
+var i = 0; var path = new Array();
+
+
+path[0] = "bihar/Mahabodhi-Temple-Bodh-Gaya-Bihar-e1486454982743.jpg";
+path[1] = "bihar/rajgir.jpg";
+path[2] = "bihar/bodhgaya.jpg";
+
+function swapImage()
+{
+document.slide.src = path[i];
+if(i < path.length - 1) i++;
+else i = 0;
+setTimeout("swapImage()",6000);
+}
+window.onload=swapImage;
+</script>
+<style>
+.container
+{
+	height:550px;
+	width:100%;
+
+
+}
+.head
+{
+  height:30px;
+}
+.top
+{
+  height:30px;
+  padding-top: 10px;
+  background-color: powderblue;
+  padding-right: 10px;
+}
+.im1
+{
+	height:150px;
+	width:300px;
+	padding: 50px 150px;
+	float:left;
+}
+
+.im2
+{
+
+	height:150px;
+	width:300px;
+	padding: 50px 150px;
+	float:right;
+}
+input
+{
+  padding-right: 10px;
+   background-color: powderblue;
+   border-style: none;
+   float:right;
+padding-left: 10px;
+}
+</style>
+</head>
+<body>
+  <div class="head">
+  <!--<CENTER> <H2> WELCOME TO --</H2></CENTER>-->
+  </div>
+
+
+<img  height="100%" name="slide" src="1.jpg" width="100%" />
+<div class="container">
+<div class="im1"> <a href="title.html" ><img src="bihar/patna-india.jpg" width="300px" height="200px" ></a></div>
+<div class="im2"><a href=""><img src="bihar/Patna-Mahavir-Mandir-on-Ram-Navami-1.jpg" width="300px" height="200px"></a></div><br>
+
+<span style="margin-left:220px"/>Patna   <span style="margin-left:700px">Mahavir Mandir<br>
+<div class ="im1"><a href=""><img src="bihar/PatnaMuseum_FrontView.jpg" width="300px" height="200px"></a></div>
+<div class="im2"><a href=""><img src="bihar/navlakha-palace.jpg" width="300px" height="200px"></a></div>
+<br>
+<span style="margin-left:220px"/>PatnaMuseum   <span style="margin-left:700px">Navlakha Palace<br>
+<div class ="im1"><a href=""><img src="bihar/Nalanda_University_India_ruins.jpg" width="300px" height="200px"></a></div>
+<div class="im2"><a href=""><img src="bihar/rajgir.jpg" width="300px" height="200px"></a></div>
+<br>
+<span style="margin-left:220px"/>Nalanda University   <span style="margin-left:700px">Munger Temple<br>
+
+</div>
+
+</body>
+</html>

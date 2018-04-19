@@ -1,0 +1,77 @@
+<html>
+<head>
+<link rel="icon" type="image/gif" href="1.jpg" sizes="16x16"/>
+<title>karnataka</title>
+
+<script language="JavaScript">
+var i = 0; var path = new Array();
+
+
+path[0] = "karnatka/Sringeri In Karnataka.jpg";
+path[1] = "karnatka/karnataka-otbt3.jpg";
+path[2] = "karnatka/maxresdefault.jpg";
+
+function swapImage()
+{
+document.slide.src = path[i];
+if(i < path.length - 1) i++;
+else i = 0;
+setTimeout("swapImage()",6000);
+}
+window.onload=swapImage;
+</script>
+<style>
+.container
+{
+	height:550px;
+	width:100%;
+
+
+}
+.head
+{
+  height:30px;
+}
+
+.im1
+{
+	height:150px;
+	width:300px;
+	padding: 50px 150px;
+	float:left;
+}
+
+.im2
+{
+
+	height:150px;
+	width:300px;
+	padding: 50px 150px;
+	float:right;
+}
+input
+{
+  padding-right: 10px;
+   background-color: powderblue;
+   border-style: none;
+   float:right;
+padding-left: 10px;
+}
+</style>
+</head>
+<body>
+  <div class="head">
+  <!--<CENTER> <H2> WELCOME TO --</H2></CENTER>-->
+  </div>
+
+<img  height="100%" name="slide" src="1.jpg" width="100%" />
+<div class="container">
+<div class="im1"> <a href="karnatka/hampi.html" ><img src="karnatka/karnataka.jpg" width="300px" height="200px" /></a></div>
+<div class="im2"><a href="karnatka/badamifort.html"><img src="karnatka/karnataka-tourist-spots-3-badami-fort.jpg" width="300px" height="200px"></a></div><br>
+<div class ="im1"><a href="karnatka/Sringeri In Karnataka.html"><img src="karnatka/Sringeri In Karnataka.jpg" width="300px" height="200px"></a></div>
+<div class="im2"><a href="karnatka/the land of the kannadigas.html"><img src="karnatka/the land of the kannadigas.jpg" width="300px" height="200px"></a></div>
+
+</div>
+
+</body>
+</html>

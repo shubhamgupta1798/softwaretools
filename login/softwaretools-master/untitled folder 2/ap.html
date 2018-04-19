@@ -1,0 +1,79 @@
+<html>
+<head>
+<link rel="icon" type="image/gif" href="1.jpg" sizes="16x16"/>
+<title>tamil</title>
+
+<script language="JavaScript">
+var i = 0; var path = new Array();
+
+path[0] = "andhrapardesh/_13545968580.jpg";
+path[1] = "andhrapardesh/andhra-pradesh.jpg";
+path[2] = "andhrapardesh/hill.png";
+
+
+
+function swapImage()
+{
+document.slide.src = path[i];
+if(i < path.length - 1) i++;
+else i = 0;
+setTimeout("swapImage()",6000);
+}
+window.onload=swapImage;
+</script>
+<style>
+.container
+{
+	height:550px;
+	width:100%;
+
+
+}
+.head
+{
+  height:30px;
+}
+
+.im1
+{
+	height:150px;
+	width:300px;
+	padding: 50px 150px;
+	float:left;
+}
+
+.im2
+{
+
+	height:150px;
+	width:300px;
+	padding: 50px 150px;
+	float:right;
+}
+input
+{
+  padding-right: 10px;
+   background-color: powderblue;
+   border-style: none;
+   float:right;
+padding-left: 10px;
+}
+</style>
+</head>
+<body>
+  <div class="head">
+  <!--<CENTER> <H2> WELCOME TO --</H2></CENTER>-->
+  </div>
+
+
+<img  height="100%" name="slide" src="andhrapardesh/golconda-fort-2190.jpeg" width="100%" />
+<div class="container">
+<div class="im1"> <a href="andhrapardesh/budha.html" ><img src="andhrapardesh/monumentsofandhrapardesh.jpeg" width="300px" height="200px" /></a></div>
+<div class="im2"><a href="andhrapardesh/nellor.html"><img src ="andhrapardesh/nellore.jpg" width="300px" height="200px"/></a></div><br>
+<div class ="im1"><a href="andhrapardesh/the white buddha.html"><img src="andhrapardesh/shikharblog.jpg" width="300px" height="200px"/></a></div>
+<div class="im2"><a href="andhrapardesh/UmamaheswaraSwamytemple.html"><img src="andhrapardesh/UmamaheswaraSwamytemple.jpg" width="300px" height="200px"/></a></div>
+
+</div>
+
+</body>
+</html>

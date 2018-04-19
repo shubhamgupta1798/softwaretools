@@ -1,0 +1,88 @@
+<html>
+<head>
+<link rel="icon" type="image/gif" href="1.jpg" sizes="16x16"/>
+<title>manipur</title>
+
+<script language="JavaScript">
+var i = 0; var path = new Array();
+
+
+path[0] = "manipur/senapati3.jpg";
+path[1] = "manipur/loktak-lakeIMPHAL.jpg";
+path[2] = "manipur/senapati3.jpg";
+
+function swapImage()
+{
+document.slide.src = path[i];
+if(i < path.length - 1) i++;
+else i = 0;
+setTimeout("swapImage()",6000);
+}
+window.onload=swapImage;
+</script>
+<style>
+.container
+{
+	height:550px;
+	width:100%;
+
+
+}
+.head
+{
+  height:30px;
+}
+.top
+{
+  height:30px;
+  padding-top: 10px;
+  background-color: powderblue;
+  padding-right: 10px;
+}
+.im1
+{
+	height:150px;
+	width:300px;
+	padding: 50px 150px;
+	float:left;
+}
+
+.im2
+{
+
+	height:150px;
+	width:300px;
+	padding: 50px 150px;
+	float:right;
+}
+input
+{
+  padding-right: 10px;
+   background-color: powderblue;
+   border-style: none;
+   float:right;
+padding-left: 10px;
+}
+</style>
+</head>
+<body>
+  <div class="head">
+  <!--<CENTER> <H2> WELCOME TO --</H2></CENTER>-->
+  </div>
+
+<img  height="100%" name="slide" src="1.jpg" width="100%" />
+<div class="container">
+<div class="im1"> <a href="manipur/ma_1.html" ><img src="manipur/chandel3.jpg" width="300px" height="200px" ></a></div>
+<div class="im2"><a href="manipur/ma_2.html"><img src="manipur/churachandpur1.jpg" width="300px" height="200px"></a></div><br>
+<span style="margin-left:220px"/><a href="manipur/ma_1.html">Chandel</a> <span style="margin-left:700px"><a href="manipur/ma_2.html">Churachandpur</a><br>
+<div class ="im1"><a href="manipur/ma_3.html"><img src="manipur/imphal.2.jpeg" width="300px" height="200px"></a></div>
+<div class="im2"><a href="manipur/ma_4.html"><img src="manipur/bishnupur_mani.jpg" width="300px" height="200px"></a></div>
+<span style="margin-left:220px"/><a href="manipur/ma_3.html">Imphal</a> <span style="margin-left:700px"><a href="manipur/ma_4.html">Bishnupur</a><br>
+<div class ="im1"><a href="manipur/ma_5.html"><img src="manipur/thoubl.jpeg" width="300px" height="200px"></a></div>
+<div class="im2"><a href="manipur/ma_6.html"><img src="manipur/Ukhrul1.jpg" width="300px" height="200px"></a></div>
+<span style="margin-left:220px"/><a href="manipur/ma_5.html">Thoubl</a> <span style="margin-left:700px"><a href="manipur/ma_6.html">Ukhrul</a><br>
+
+</div>
+
+</body>
+</html>

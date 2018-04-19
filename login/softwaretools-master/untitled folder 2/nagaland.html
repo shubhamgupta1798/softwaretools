@@ -1,0 +1,89 @@
+<html>
+<head>
+<link rel="icon" type="image/gif" href="1.jpg" sizes="16x16"/>
+<title>Nagaland</title>
+
+<script language="JavaScript">
+var i = 0; var path = new Array();
+
+
+path[0] = "image1.webp";
+path[1] = "2.webp";
+path[2] = "3.jpg";
+
+function swapImage()
+{
+document.slide.src = path[i];
+if(i < path.length - 1) i++;
+else i = 0;
+setTimeout("swapImage()",6000);
+}
+window.onload=swapImage;
+</script>
+<style>
+.container
+{
+	height:550px;
+	width:100%;
+
+
+}
+.head
+{
+  height:30px;
+}
+.top
+{
+  height:30px;
+  padding-top: 10px;
+  background-color: powderblue;
+  padding-right: 10px;
+}
+.im1
+{
+	height:150px;
+	width:300px;
+	padding: 50px 150px;
+	float:left;
+}
+
+.im2
+{
+
+	height:150px;
+	width:300px;
+	padding: 50px 150px;
+	float:right;
+}
+input
+{
+  padding-right: 10px;
+   background-color: powderblue;
+   border-style: none;
+   float:right;
+padding-left: 10px;
+}
+</style>
+</head>
+<body>
+  <div class="head">
+  <!--<CENTER> <H2> WELCOME TO --</H2></CENTER>-->
+  </div>
+  
+
+<img  height="100%" name="slide" src="1.jpg" width="100%" />
+<div class="container">
+<div class="im1"> <a href="nagaland/n1.html" ><img src="nagaland/c.jpeg" width="300px" height="200px" ></a></div>
+<div class="im2"><a href="nagaland/n2.html"><img src="nagaland/d.jpeg" width="300px" height="200px"></a></div><br>
+<span style="margin-left:220px"/><a href="nagaland/n1.html">Chui Village</a> <span style="margin-left:700px"><a href="nagaland/n2.html">Dzaou Valley</a><br>
+<div class ="im1"><a href="nagaland/n3.html"><img src="nagaland/ko.jpeg" width="300px" height="200px"></a></div>
+<div class="im2"><a href="nagaland/n4.html"><img src="nagaland/koma.jpeg" width="300px" height="200px"></a></div>
+<span style="margin-left:220px"/><a href="nagaland/n3.html">Kohima hill Station</a> <span style="margin-left:700px"><a href="nagaland/n4.html">Kohima Var Memorial</a><br>
+<div class ="im1"><a href="nagaland/n5.html"><img src="nagaland/sar.jpeg" width="300px" height="200px"></a></div>
+<div class="im2"><a href="nagaland/n6.html"><img src="nagaland/nag.jpeg" width="300px" height="200px"></a></div>
+<span style="margin-left:220px"/><a href="nagaland/n5.html">Mount Saramati</a> <span style="margin-left:700px"><a href="nagaland/n6.html">Nagaland</a><br>
+
+</div>
+
+</body>
+</html>

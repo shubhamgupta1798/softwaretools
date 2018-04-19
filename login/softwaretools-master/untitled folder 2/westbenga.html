@@ -1,0 +1,89 @@
+<html>
+<head>
+<link rel="icon" type="image/gif" href="1.jpg" sizes="16x16"/>
+<title>jsgdskjg</title>
+
+<script language="JavaScript">
+var i = 0; var path = new Array();
+
+
+path[0] = "wb/11.jpg";
+path[1] = "wb/12.jpg";
+path[2] = "wb/13.jpg";
+
+function swapImage()
+{
+document.slide.src = path[i];
+if(i < path.length - 1) i++;
+else i = 0;
+setTimeout("swapImage()",6000);
+}
+window.onload=swapImage;
+</script>
+<style>
+.container
+{
+	height:550px;
+	width:100%;
+
+
+}
+.head
+{
+  height:30px;
+}
+.top
+{
+  height:30px;
+  padding-top: 10px;
+  background-color: powderblue;
+  padding-right: 10px;
+}
+.im1
+{
+	height:150px;
+	width:300px;
+	padding: 50px 150px;
+	float:left;
+}
+
+.im2
+{
+
+	height:150px;
+	width:300px;
+	padding: 50px 150px;
+	float:right;
+}
+input
+{
+  padding-right: 10px;
+   background-color: powderblue;
+   border-style: none;
+   float:right;
+padding-left: 10px;
+}
+</style>
+</head>
+<body>
+  <div class="head">
+  <!--<CENTER> <H2> WELCOME TO --</H2></CENTER>-->
+  </div>
+
+
+<img  height="100%" name="slide" src="1.jpg" width="100%" />
+<div class="container">
+<div class="im1"> <a href="wb/darj.html" ><img src="wb/1.jpg" width="300px" height="200px" ></a></div>
+<div class="im2"><a href="wb/jal.html"><img src="wb/2.jpg" width="300px" height="200px"></a></div><br>
+<span style="margin-left:220px"/><a href="wb/darj.html">Darjeeling </a> <span style="margin-left:700px"><a href="wb/jal.html">JALPAIGURI</a><br>
+
+<div class ="im1"><a href="wb/ali.html"><img src="wb/3.jpg" width="300px" height="200px"></a></div>
+<div class="im2"><a href="wb/malda.html"><img src="wb/4.jpg" width="300px" height="200px"></a></div>
+<span style="margin-left:220px"/><a href="wb/ali.html">ALIPURDUAR </a> <span style="margin-left:700px"><a href="gujrat/gir.html">MALDA</a><br>
+
+
+
+</div>
+
+</body>
+</html>

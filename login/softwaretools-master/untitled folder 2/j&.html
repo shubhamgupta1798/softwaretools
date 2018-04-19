@@ -1,0 +1,88 @@
+<html>
+<head>
+<link rel="icon" type="image/gif" href="1.jpg" sizes="16x16"/>
+<title>JAMMU KASHMIR</title>
+
+<script language="JavaScript">
+var i = 0; var path = new Array();
+
+
+path[0] = "JAMMU/dallake.jpg";
+path[1] = "JAMMU/himalayas.jpeg";
+path[2] = "JAMMU/Japan_Mountains_Lake_504151_2880x1800.jpg";
+
+function swapImage()
+{
+document.slide.src = path[i];
+if(i < path.length - 1) i++;
+else i = 0;
+setTimeout("swapImage()",6000);
+}
+window.onload=swapImage;
+</script>
+<style>
+.container
+{
+	height:550px;
+	width:100%;
+
+
+}
+.head
+{
+  height:30px;
+}
+.top
+{
+  height:30px;
+  padding-top: 10px;
+  background-color: powderblue;
+  padding-right: 10px;
+}
+.im1
+{
+	height:150px;
+	width:300px;
+	padding: 50px 150px;
+	float:left;
+}
+
+.im2
+{
+
+	height:150px;
+	width:300px;
+	padding: 50px 150px;
+	float:right;
+}
+input
+{
+  padding-right: 10px;
+   background-color: powderblue;
+   border-style: none;
+   float:right;
+padding-left: 10px;
+}
+</style>
+</head>
+<body>
+  <div class="head">
+  <!--<CENTER> <H2> WELCOME TO --</H2></CENTER>-->
+  </div>
+
+<img  height="100%" name="slide" src="1.jpg" width="100%" />
+<div class="container">
+<div class="im1"> <a href="JAMMU/vai.html" ><img src="JAMMU/vaishnav_devi.jpg" width="300px" height="200px" ></a></div>
+<div class="im2"><a href="JAMMU/mountain.html"><img src="JAMMU/himalayas1.jpg" width="300px" height="200px"></a></div><br>
+<span style="margin-left:220px"/>Vaishnav Devi   <span style="margin-left:700px">Himalayas<br>
+<div class ="im1"><a href=""><img src="JAMMU/bahu-fort-jammu.jpg" width="300px" height="200px"></a></div>
+<div class="im2"><a href="JAMMU/dal.html"><img src="JAMMU/Dal-Lake-During-Winter-Season.jpg" width="300px" height="200px"></a></div><br>
+<span style="margin-left:220px"/>Bahu-Fort  <span style="margin-left:700px">Dal Lake<br>
+<div class ="im1"><a href=""><img src="JAMMU/amarnath-yatra.jpg" width="300px" height="200px"></a></div>
+<div class="im2"><a href="JAMMU/sri.html"><img src="JAMMU/Srinagar_pano.jpg" width="300px" height="200px"></a></div><br>
+<span style="margin-left:220px"/>Amarnath  <span style="margin-left:700px">Srinagar_pano<br>
+
+</div>
+
+</body>
+</html>

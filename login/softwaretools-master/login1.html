@@ -1,0 +1,46 @@
+<html>
+<head>
+<style>
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#dee4e8;
+}
+
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+      background-color: #dee4e8;
+    text-decoration: none;
+}
+
+a:hover:not(.active) {
+
+    background-color:#8e949e;
+}
+
+
+</style>
+</head>
+<script>
+function fn(){
+window.location = 'login.php';}
+</script>
+<body>
+<ul>
+  <li><a  href="nav.html" style="float:left;">Home</a></li>
+  <li><a href="login1.html" style="float:right;">Login</a></li>
+  <li><a href="signup1.html" style="float:right;">Sign-Up</a></li>
+
+  <li><a href="#about" style="float:left;">About</a></li>
+</ul>
+<iframe src="login.php" height="750" float="left" width="100%"  name="frameset_a"></iframe>
+
+</body>
+</html>

@@ -1,0 +1,90 @@
+<html>
+<head>
+<link rel="icon" type="image/gif" href="1.jpg" sizes="16x16"/>
+<title>tripura
+</title>
+
+<script language="JavaScript">
+var i = 0; var path = new Array();
+
+
+path[0] = "tripura/unakoti.jpg";
+path[1] = "tripura/neermahal.jpg";
+path[2] = "tripura/tripurasundari.png";
+
+function swapImage()
+{
+document.slide.src = path[i];
+if(i < path.length - 1) i++;
+else i = 0;
+setTimeout("swapImage()",6000);
+}
+window.onload=swapImage;
+</script>
+<style>
+.container
+{
+	height:550px;
+	width:100%;
+
+
+}
+.head
+{
+  height:30px;
+}
+.top
+{
+  height:30px;
+  padding-top: 10px;
+  background-color: powderblue;
+  padding-right: 10px;
+}
+.im1
+{
+	height:150px;
+	width:300px;
+	padding: 50px 150px;
+	float:left;
+}
+
+.im2
+{
+
+	height:150px;
+	width:300px;
+	padding: 50px 150px;
+	float:right;
+}
+input
+{
+  padding-right: 10px;
+   background-color: powderblue;
+   border-style: none;
+   float:right;
+padding-left: 10px;
+}
+</style>
+</head>
+<body>
+  <div class="head">
+  <!--<CENTER> <H2> WELCOME TO --</H2></CENTER>-->
+  </div>
+  
+
+<img  height="100%" name="slide" src="1.jpg" width="100%" />
+<div class="container">
+<div class="im1"> <a href="tripura/t1.html" ><img src="tripura/havelimeseum.jpeg" width="300px" height="200px" ></a></div>
+<div class="im2"><a href="tripura/t2.html"><img src="tripura/ujayntapalace.jpeg" width="300px" height="200px"></a></div><br>
+<span style="margin-left:220px"/><a href="tripura/t1.html">Haveli museun</a> <span style="margin-left:700px"><a href="tripura/t2.html">Ujaynta Palace</a><br>
+<div class ="im1"><a href="tripura/t3.html"><img src="tripura/statemuseum.jpg" width="300px" height="200px"></a></div>
+<div class="im2"><a href="tripura/t4.html"><img src="tripura/unakoti.jpeg" width="300px" height="200px"></a></div>
+<span style="margin-left:220px"/><a href="tripura/t3.html">State museum</a> <span style="margin-left:700px"><a href="tripura/t4.html">Unakoti</a><br>
+<div class ="im1"><a href="tripura/t5.html"><img src="tripura/trishna_wildlife.jpeg" width="300px" height="200px"></a></div>
+<div class="im2"><a href="tripura/t6.html"><img src="tripura/neermahal.jpg" width="300px" height="200px"></a></div>
+<span style="margin-left:220px"/><a href="tripura/t5.html">Trishna Wildlife sanctuary</a> <span style="margin-left:700px"><a href="tripura/t6.html">Neermahal</a><br>
+
+</div>
+
+</body>
+</html>

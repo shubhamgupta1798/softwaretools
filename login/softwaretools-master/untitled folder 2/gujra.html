@@ -1,0 +1,95 @@
+<html>
+<head>
+
+
+<link rel="icon" type="image/gif" href="1.jpg" sizes="16x16"/>
+
+
+<script language="JavaScript">
+var i = 0; var path = new Array();
+
+
+path[0] = "gujrat/akshardham.jpg";
+path[1] = "gujrat/Mahabat-ka-Maqbara.jpg";
+path[2] = "gujrat/Somnat.jpg";
+
+function swapImage()
+{
+document.slide.src = path[i];
+if(i < path.length - 1) i++;
+else i = 0;
+setTimeout("swapImage()",3000);
+}
+window.onload=swapImage;
+</script>
+<style>
+
+.container1
+{
+	height:550px;
+	width:100%;
+
+
+}
+.head
+{
+  height:30px;
+}
+.top
+{
+  height:30px;
+  padding-top: 10px;
+  background-color: powderblue;
+  padding-right: 10px;
+}
+.im1
+{
+	height:150px;
+	width:300px;
+	padding: 50px 150px;
+	float:left;
+}
+
+.im2
+{
+
+	height:150px;
+	width:300px;
+	padding: 50px 150px;
+	float:right;
+}
+input
+{
+  padding-right: 10px;
+   background-color: powderblue;
+   border-style: none;
+   float:right;
+padding-left: 10px;
+}
+</style>
+</head>
+<body style="background-color:#dee4e8">
+
+
+
+
+
+
+<img  height="100%" name="slide" src="1.jpg" width="100%" />
+<div class="container">
+
+<div class="im1"> <a href="gujrat/mahabat.html" ><img src="gujrat/Mahabat-ka-Maqbara.jpg" width="300px" height="200px" ></a></div>
+
+<div class="im2"><a href="gujrat/gir.html"><img src="gujrat/slider3.jpg" width="300px" height="200px"></a></div><br>
+<span style="margin-left:220px"/><a href="gujrat/mahabat.html">Mahabat ka Maqbara </a> <span style="margin-left:700px"><a href="gujrat/gir.html">Gir Forest</a><br>
+<div class ="im1"><a href="gujrat/kanikivav.html"><img src="gujrat/ranikivav(patan).jpg" width="300px" height="200px"></a></div>
+<div class="im2"><a href="gujrat/konark.html"><img src="gujrat/Konark.jpg" width="300px" height="200px"></a></div><br>
+<span style="margin-left:220px"/><a href="gujrat/ranikivav.html">Rani ki vav</a>  <span style="margin-left:750px"><a href="gujrat/konark.html">Konark</a><br>
+<div class ="im1"><a href="gujrat/somnath.html"><img src="gujrat/somnath.jpg" width="300px" height="200px"></a></div>
+<div class="im2"><a href="gujrat/ran.html"><img src="gujrat/slider2.jpg" width="300px" height="200px"></a></div><br>
+<span style="margin-left:220px"/><a href="gujrat/somnath.html">Somnath </a> <span style="margin-left:750px"><a href="gujrat/ran.html">Run of Kutch</a><br>
+</div>
+
+
+</body>
+</html>
